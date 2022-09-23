@@ -1,0 +1,399 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+
+
+* {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+  html,body {
+    height:100%;
+  }
+
+  header{
+    height:10%;
+    width:100%;
+    border: 2px solid grey;
+
+  }
+  
+
+  .header-L {
+    height:100%;
+    width:20%;
+    border: 2px solid lightgreen;
+    float:left;
+    
+  }
+
+.header-M {
+  height:100%;
+  width:60%;
+  float:left;
+  padding-left:10px;  
+  border:2px solid pink;
+ 
+}
+
+
+.header-R {
+  height:100%;
+  width:20%;
+  border: 2px solid purple;
+  float:left;
+  text-align: center;
+  padding-top:15px;
+  }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+  
+.clear {
+  clear: both;
+}
+
+   
+ul{
+  list-style-type:none;
+}
+
+
+    nav ul{
+      display: flex;
+      text-decoration: none;
+      justify-content: center;
+  }
+
+  nav li{
+    margin-left: 6%;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+  
+
+
+    #rainbowhair{
+
+
+      
+        background:url("img/hero-image.jpg") no-repeat;
+        background-size:cover;
+        background-position:center;
+        width: 100%;
+        height: 1000px;
+        padding-top:150px;
+        
+      border: 2px solid black;
+    }
+
+    .blonde{
+          color:white;
+          font-size:5rem;
+          font-family: 'Cinzel', serif;
+    }
+
+    .divide{
+      color:white;
+      font-size:2rem;
+      font-family: 'Cinzel', serif;
+
+}
+
+/* #ourservices{
+  color:black;
+  font-size:1rem;
+  font-family: 'Cinzel', serif;
+  background-color: black;
+  color: white;
+  border: none;
+}
+   */
+
+
+
+    .sidewayshours{
+      text-orientation:  sideways;
+      writing-mode: vertical-rl;
+       float:right;  
+      
+      /* padding-left:10px; */
+      border: 2px solid teal;
+    }
+    
+    .about-sec{
+      border: 2px solid red;
+    }
+
+    .stylist-sec{
+      clear: both;
+      border: 2px solid blue;
+    }
+    
+    .bookings{
+      border: 2px solid green;
+    }
+
+
+    
+    .lookbook{
+      border: 2px solid orange;
+    }
+
+
+    #ourservices {
+      display: block;
+      width: 15%;
+      height: 5%;
+      border: none;
+      background-color: black;
+      color: white;
+       padding: 14px 28px; 
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    #your-first {
+      display: block;
+      width: 15%;
+      height: 5%;
+      border: none;
+      background-color: black;
+      color: white;
+       padding: 14px 28px; 
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+    }
+
+   #bookonline{
+    width:100%;
+    height: 40px;
+   }
+    
+   .imageicon{
+    width:100px;
+   height:90px; 
+   /* display:flex;
+   justify-content: center ; */
+   /* border-radius: 50%; */
+   
+   }
+
+   .descrip{
+    width: 80%;
+    text-align: center;
+    font-size:12px ;
+    padding: 1%;
+    padding-left: 20vh;
+    /* display:inherit; */
+   }
+
+#icons{
+   flex-direction: row;
+   flex-basis: 100%;
+   border-radius: 10px;
+   padding: 50px;
+   justify-content: space-around;
+   text-align: center;
+   border: 2px solid plum;
+   /* float:left; */
+}
+
+
+
+.icon-L{
+  border: 2px solid gold;
+  text-align: center;/* where is this margin coming from*/
+}
+
+.icon-M{
+  border: 2px solid silver;
+  text-align: center;
+}
+
+.icon-R{
+  border: 2px solid rosybrown;
+  text-align: center;
+}
+
+
+.slideshowBtns {
+  height: 500px;
+  width: 600px;
+  background: url("img/Home3-Video.jpg") no-repeat center/80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.make{
+  
+  flex-direction: row;
+  flex-basis: 100%;
+  border-radius: 10px;
+  padding: 50px;
+  justify-content: space-around;
+  text-align: center;
+  border: 2px solid rgb(185, 255, 80);
+  /* float:left; */
+}
+
+.make-paragr{
+  /* float: inline-end; */
+  /* flex-direction: row;
+  flex-basis: 100%;
+  border-radius: 10px;
+  padding: 50px;
+  justify-content: space-around;
+  text-align: center; */
+  border: 2px solid rgb(31, 1, 31);
+  /* float:left; */
+}
+
+.video{
+  border:2px solid hotpink;
+  /* float:right; */
+  justify-content: center;
+  align-items: center;
+  display: flex;/* todo this moved to center but need to have text align on the side*/
+}
+
+#read{
+  display: block;
+  width: 15%;
+  height: 2%;
+  border: none;
+  background-color: black;
+  color: white;
+   padding: 12px 26px; 
+  font-size: 14px;
+  cursor: pointer;
+    text-align: center;
+    display:flex;
+  justify-content: center ;
+  }
+
+
+
+  .momentum{
+  border: 2px solid orangered;
+}
+/* .fa-solid fa-circle-play{
+width: 20px;
+} to do makw plY BUTTON Larger */
+
+/* .iconz{
+  float:left;
+  border: 2px solid gold;
+} */
+/* .rainbowhair{
+    background-image:img/hero-image.jpg ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-bottom: 200px;
+    padding-top: 20px;
+  } */
+
+  /* #rainbowhair {
+    background:url("img/hero-image.jpg");
+    background-size:cover;
+    width: 100%;
+    height: 1500px;
+     margin-top: 5px;
+    margin-bottom:  5px; 
+    margin-left: 0%;
+    margin-right: 0%; 
+    padding:5%;
+} */
+
+/* body{
+    background:url(img/hero-image.jpg);
+} */
+
+.stylist-sec{
+  display:flex;
+  width:100%;
+  justify-content: center ;
+}
+
+.bookings{
+  
+  background:url("img/Promo-Banner-Image.jpg") no-repeat;
+  background-size:cover;
+  background-position:center;
+  width: 100%;
+  height: 100vh;
+  padding-top:150px;
+  /* justify-content: center;
+  align-items: center; */
+border: 2px solid black;
+  
+}
+
+#book{
+ 
+    display: block;
+    width: 15%;
+    height: 10%;
+    border: none;
+    background-color: black;
+    color: white;
+     padding: 12px 26px; 
+    font-size: 14px;
+    cursor: pointer;
+    float:left;
+   
+    
+    }
+  
+.haircut{
+  font-size: 25px;
+ /* text-align: center; */
+}
+
+.left {
+  height: 100%;
+    width: 33.33%;
+    border: 2px solid purple;
+  float: left;
+}
+  
+  .middle {
+  height: 100%;
+    width: 33.33%;
+    border: 2px solid purple;
+  float: left;
+}
+  
+
+
+
+.right {
+  height: 100%;
+    width: 33.33%;
+    border: 2px solid teal;
+  float: left;
+}
+
+/* #blackbox{
+  background-color: black;
+} * todo black box didn't show up in the photogrid/
